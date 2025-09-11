@@ -1,5 +1,5 @@
 # SetR
-This repository contains the official implementation of **[SetR: Shifting from Reranking to Passage Set Selection for Retrieval-Augmented Generation](https://arxiv.org/abs/2507.06838)**, a novel approach that redefines how retrieval-augmented generation (RAG) systems leverage retrieved passages by selecting *sets of passages* instead of reranking individual ones. SetR introduces a set-level selection framework that significantly improves downstream generation quality while maintaining efficiency.
+This repository contains the official implementation of **[Shifting from Ranking to Set Selection for Retrieval Augmented Generation](https://arxiv.org/abs/2507.06838)**, a novel approach that redefines how retrieval-augmented generation (RAG) systems leverage retrieved passages by selecting *sets of passages* instead of reranking individual ones. SetR introduces a set-level selection framework that significantly improves downstream generation quality while maintaining efficiency.
 
 📢 This work has been **accepted for an oral presentation at ACL 2025**.
 
@@ -83,7 +83,7 @@ leedhn@lgresearch.ai, yongrae.jo@lgresearch.ai, haeju.park@lgresearch.ai
 If you find this work useful, please cite:
 ```
 @inproceedings{lee2025setr,
-  title     = {Shifting from Reranking to Passage Set Selection for Retrieval-Augmented Generation},
+  title     = {Shifting from Ranking to Set Selection for Retrieval Augmented Generation},
   author    = {Lee, Dahyun and Jo, Yongrae and Park, Haeju and Lee, Moontae},
   booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
   year      = {2025}
