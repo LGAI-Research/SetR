@@ -1,0 +1,13 @@
+bitsandbytes==0.46.1
+datasets==4.0.0
+deepspeed==0.14.4
+numpy==2.3.1
+openai
+pandas==2.3.1
+peft==0.13.0
+Requests==2.32.4
+torch==2.7.1
+tqdm==4.67.1
+transformers==4.48.3
+# Flash attention - install separately after torch is available
+# flash-attn==2.4.2
